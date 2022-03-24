@@ -1,0 +1,141 @@
+html,body{
+    height: 100%;
+}
+#brand {
+    margin-left:1rem;
+    font-size: 2rem;
+}
+
+header{
+    max-width: 100%;
+    margin-bottom: auto;
+    background-image: linear-gradient(to left,  #c5cacf, rgb(253, 253, 253) );
+    font-size: 1.5rem;
+}
+
+main {
+    background-image: url('Absolute_Palais_Universitaire_01.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    -webkit-background-size:cover; 
+    padding-top: 15%;
+    padding-bottom:15%;
+}
+
+#welcome {
+    top:30%;
+    text-align: center;
+    width: 40%; 
+    bottom:30%;
+}
+
+.btn{
+    background-color: rgb(229, 186, 182);
+    border-style: solid;
+    border-color:rgb(214, 170, 165);
+    border-width: medium;
+    border-radius:15%;
+    font-family:'Courgette', cursive;
+    font-weight: 600;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+footer {  
+    max-height: 100%;
+    font-size:1.1rem;
+    position: relative;  
+    bottom: 0%;  
+    width: 100%;  
+    padding-top:1%;
+    padding-bottom:1%;
+    background-image: linear-gradient(to bottom right,white,#c5cacf); 
+    color: black;  
+
+}  
+#fontl{
+    font-size: 1.5rem;
+}
+#contacts{
+    display: flex;
+    padding-left:10%;
+}
+
+#left{
+    flex-basis: 70%;
+
+}
+#center{
+    flex-basis: 45%;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+.row{
+    text-align:center;
+}
+#WELCOME{
+    font-size: 3rem;
+}
+#welcome{
+    font-size: 2rem;
+}
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+@media(min-height:950px){
+    #welcome{
+        font-size: 5rem;
+	}
+	#WELCOME{
+		font-size: 6rem;
+	}
+    #footercol{
+        font-size: 3rem;
+    }
+    #fontl{
+        font-size: 3rem;
+    }
+    header{
+        font-size:3rem;}
+    #brand{
+        font-size:4rem;
+	}
+	.btn{
+		font-size: 3rem;
+	}
+	#left{
+		flex-basis: 100%;
+	
+	}
+	#center{
+		flex-basis: 70%;
+	}
+}
+@media(max-width:992px){
+    #member{
+        margin-right:0rem!important;
+    }
+}
+@media(max-width:230px){
+    #WELCOME{
+        font-size: 2rem!important;
+    }
+}
+@media (max-width: 800px) 
+{
+    main {
+      height:60rem;
+    }
+    footer{
+        position: relative;
+    }
+    #welcome{
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,102 @@
+body{
+    background:url('styleback.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    justify-content: center;
+    align-items: center;
+}
+
+#brandhead {
+    margin-left:1rem;
+    font-size: 2rem;
+}
+main{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+center{
+    width: 100%;
+}
+#container2{
+    position: relative;
+    background-color: rgb(253, 248, 239);
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding:0%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-top:4rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+#ufaz{
+    font-family: 'Righteous', cursive;
+    margin-bottom:5%;
+    font-size:3rem;
+    text-shadow:2px 2px rgb(173, 173, 173);
+}
+
+
+#middle{
+    margin-top:5%;
+    margin-bottom: 10%;
+}
+#brand {
+    color:gray;
+    margin-top: 15px;
+    width: 50%;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    text-align: center;
+    /* border-radius: 15px; */
+    background: rgba(215, 236, 240, 0.521);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header{
+    position: relative;
+    background-image: linear-gradient(to left,  #c5cacf, rgb(253, 253, 253) );
+    width: 100%;
+    margin-bottom: 4%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.nav{
+    margin-bottom: 4%;
+}
+.btn{
+    margin-top: 15px;
+    background: rgb(215,236,240);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 4px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Righteous', cursive;
+    font-size:1.2rem;
+    text-align: center;
+}
+
+.form-select::-webkit-scrollbar{
+    
+    width:1rem;
+} 
+.form-select::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+.form-select::-webkit-scrollbar-thumb {
+    background-color: #1E90FF;
+    border-radius: 40px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+@media(max-width:465px)
+{
+    #ufaz{
+        font-size:1rem;
+    }
+}
